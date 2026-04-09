@@ -14,7 +14,6 @@ int main()
 {
     vector <int> v;
     
-
     v.emplace_back(38);
     v.emplace_back(56);
     v.emplace_back(6);
