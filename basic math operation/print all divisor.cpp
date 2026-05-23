@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-//this is important program because when every it comes to factor use sqrt method
+//this is important program because whenever it comes to factor use sqrt method
 
 int main(){
   /*this program runs fine but the TC is O(N) so we follow the different approach  
@@ -23,7 +23,7 @@ int main(){
     }
     cout<<"vector before sorting:\n";
     for (auto it:divisor){      //the element are randomly displayed so we need to sort the vector
-        cout<<it<<" ";         //here we use for each loop so we need not to represent *it
+        cout<<it<<"*";         //here we use for each loop so we need not to represent *it
     }
     cout<<endl;
     sort(divisor.begin(),divisor.end());

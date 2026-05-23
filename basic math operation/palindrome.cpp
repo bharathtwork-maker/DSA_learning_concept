@@ -2,7 +2,7 @@
 using namespace std;
 //the reverse of the number is same as the original number 
 int main(){
-    int num = 5379;
+    int num = 121;
     int temp = num;
     int rev = 0;
 
