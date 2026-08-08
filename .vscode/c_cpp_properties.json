@@ -15,7 +15,7 @@
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-gcc-x64",
-            "compilerPath": "C:/c++ compiler/winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3/mingw64/bin/g++.exe"
+            "compilerPath": "D:/compiler/winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3/mingw64/bin/g++.exe"
         }
     ],
     "version": 4

@@ -31,7 +31,7 @@ int main(){
     vector<int>v2={1,2,6,8,11,13};
     n = sizeof(arr1) / sizeof(arr1[0]);
 
-    int ind = lower_bound (arr1, arr1+n , 100535) - arr1;  //this is for the array lowerbound 
+    int ind = lower_bound (arr1, arr1+n , 100535) - arr1;  //this is for the array lowerbound and we subtract array to get the index of the number
 
     auto ind1 = lower_bound (v2.begin() , v2.end() , 6) - v2.begin();  //this is for the vector lowerbound 
     cout<< "lower bound array: "<<ind <<'\n';
@@ -43,5 +43,8 @@ int main(){
     auto ind3 = upper_bound(v2.begin() , v2.end() , 0) - v2.begin();
     cout << "upper bound vector: "<< ind3 <<'\n';
 
+    auto ind4 = upper_bound(v2.begin(),v2.end() , 13) - v2.begin();
+    cout<< "upper bound for vector : "<<ind4 <<'\n';
+    
     return 0;
 }

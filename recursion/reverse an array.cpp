@@ -30,8 +30,8 @@ int main()
 
 void func(int a[],int i ,int n){
     if (i>=n/2) return;       //if the function reaches half then it starts returning 
-    swap(a[i],a[n-i-1]);     //the first a[i] is the first element and for swaping to the corresponding element we use a[n-i-1]    
-    func(a,i+1,n-1); 
+    swap(a[i],a[n-1-i]);     //the first a[i] is the first element and for swaping to the corresponding element we use a[n-i-1]    
+    func(a,i+1,n); 
 }
 int main(){
     int n;

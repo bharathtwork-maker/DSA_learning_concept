@@ -4,8 +4,7 @@ using namespace std;
 int parameterised(int i, int sum)  //this is parameterised method to print the sum
 {
     if (i<1){
-    cout<<sum;
-    return 0;
+    return sum;
     }
     return parameterised(i-1,sum+i);
 }
@@ -18,7 +17,7 @@ int func(int n){
 
 
 int main(){
-   parameterised(5,0);
+   cout<<parameterised(5,0);
 
    cout<<"\nthis is the output which is obtained from the function method :"<<func(5);
     return 0;

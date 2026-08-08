@@ -70,7 +70,7 @@ int main (){
     }
     cout<< endl;
 
-    cout<< v5.size();
+    cout<< "the size of the vector v5 is :"<<v5.size();
     cout<<endl;
 
     v5.pop_back(); //removes the end element    
@@ -86,7 +86,15 @@ int main (){
         cout<< *it << " ";
     }
 
-    cout<<v5.empty();
+    cout<<v5.empty(); //checks whether the vector is empty or not and answers in boolean digits that is 1 or 0
 
     return 0;
 }
+/*even list has same operation as vector
+
+list <int> l;
+l.push_back(5)
+l.emplace_back(0)
+l.push_front(2)
+l.emplace_front(5)      //why are we using this is this emplace front is less costlier than using insert function in vector which is coslier
+*/

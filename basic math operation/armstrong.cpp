@@ -7,9 +7,9 @@ int main()
     int temp = num;
     int sum = 0 ;
     while (num > 0){
-        int ld = num % 10;
+        int ld = num % 10;     //this gives the last digit of the number
         sum = sum + (ld * ld * ld);
-        num = num / 10;
+        num = num / 10;    //this returns the number excluding the last digit
     }
     if(sum == temp) cout <<"armstrong number.";
     else cout<<"Not an armstrong number.";
