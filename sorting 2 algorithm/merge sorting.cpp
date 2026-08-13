@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//divide and merge (refer notes for better understanding)
+
 void merge(vector<int>& arr,int low , int mid , int high)
 {
     vector<int> temp;

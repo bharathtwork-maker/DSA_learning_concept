@@ -20,7 +20,7 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: C:\\c++ compiler\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\\mingw64\\bin\\g++.exe"
+            "detail": "compiler: D:\\compiler\\winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3\\mingw64\\bin"
         },
         {
             "type": "cppbuild",
@@ -51,7 +51,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++.exe build active file",
-            "command": "C:\\c++ compiler\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\\mingw64\\bin\\g++.exe",
+            "command": " D:\\compiler\\winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3\\mingw64\\bin",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
@@ -67,7 +67,7 @@
                 "$gcc"
             ],
             "group": "build",
-            "detail": "compiler: C:\\c++ compiler\\winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-19.1.7-mingw-w64ucrt-12.0.0-r3\\mingw64\\bin\\g++.exe"
+            "detail": "compiler: D:\\compiler\\winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3\\mingw64\\bin"
         },
         {
             "type": "cppbuild",
