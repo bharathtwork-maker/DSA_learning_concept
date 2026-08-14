@@ -35,7 +35,7 @@ void qs(vector<int>& a , int low , int high)
 
         qs(a , low ,partition_index-1);   //this is to the element that is lower than the pivot 
 
-        qs(a , partition_index+1 , high);    //this is to the element that is higher than the pivot 
+        qs(a , partition_index+1 , high);    //this is to the element that is higher than the pivot
     }
 }
 int main()
