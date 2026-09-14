@@ -73,7 +73,7 @@ vector<int> unioning(vector<int>& a , vector<int>& b)
             j++;
     }
     
-    while(i < n1)   //when i is still left j is finished going throguh the array
+    while(i < n1)   //when i is still left j is finished going throguh the array    
     {
          if(unionarr.size() == 0 || unionarr.back() != a[i])
             {
