@@ -77,7 +77,7 @@ vector<int> unioning(vector<int>& a , vector<int>& b)
     {
          if(unionarr.size() == 0 || unionarr.back() != a[i])
             {
-                unionarr.push_back(b[j]);
+                unionarr.push_back(a[j]);
             }
             i++;
     }
