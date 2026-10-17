@@ -33,7 +33,7 @@ void rotatebyk(int a[] , int n , int k )
 //if we dont have reverse function we have to perform this block of code
 void reverseit(int a[] , int start , int end)
 {
-    while(start <= end)
+    while(start < end)
     {
         int temp = a[start] ;
         a[start] = a[end];
@@ -45,8 +45,8 @@ void reverseit(int a[] , int start , int end)
 
 void reverseito(int a[] , int n , int k)
 {
-    reverseit(a , 0 , k);
-    reverseit(a , k+1 , n-1);
+    reverseit(a , 0 , k-1);
+    reverseit(a , k , n-1);
     reverseit(a , 0 , n-1);
 }
 
@@ -62,8 +62,9 @@ int main()
         cout<<a[i]<<" ";
     }
 
+    int a1[n] = {1,2,3,4,5,6,7};
     cout<<endl;
-    reverseito(a , n , k);
+    reverseito(a1 , n , k);
     cout<<"rotated by k using own function"<<endl;
       for(int i=0 ; i<n ; i++)
     {
