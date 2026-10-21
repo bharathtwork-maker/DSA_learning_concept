@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// !!!!!!!!!!!! important !!!!!!!!!!!!!!!  when ever some question has minimum or highest and also know with the range of the numbers to be found out then we have to use binary search
+
 int counting(vector<int>& a , int x)
 {
     auto first = lower_bound(a.begin() , a.end() ,x);

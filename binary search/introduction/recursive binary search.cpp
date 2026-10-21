@@ -2,6 +2,8 @@
 using namespace std;
 //here TIME COMPLEXITY is O(log₂(n))
 
+// !!!!!!!!!!!! important !!!!!!!!!!!!!!!  when ever some question has minimum or highest and also know with the range of the numbers to be found out then we have to use binary search
+
 int binary(vector<int>& a , int left , int right , int target)
 {
     if(left > right)
