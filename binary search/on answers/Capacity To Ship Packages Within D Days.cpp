@@ -17,7 +17,7 @@ int capacity(const vector<int>& a, int mid) {
 
 int shipWithinDays(vector<int>& weights, int days) {
     int low = *max_element(weights.begin(), weights.end());
-    int high = accumulate(weights.begin(), weights.end(), 0);
+    int high = accumulate(weights.begin(), weights.end(), 0);   //it is just to sum all the elements in the array and is the stl for doing the sum of the elements
     while (low <= high) {
         long long mid = low + (high - low) / 2;
         int cap = capacity(weights, mid);

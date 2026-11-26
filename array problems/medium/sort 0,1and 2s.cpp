@@ -7,19 +7,19 @@ void sort012(vector<int>& a)
 {
     int n = a.size();
     int low = 0 , mid = 0 , high = n-1;
-    while(mid <= high)
+    while(mid <= high)                          //mid to high will be unsorted that is why we consider a[mid] to compare
     {
-        if(a[mid] == 0)
+        if(a[mid] == 0)          //0 to low-1 it is 0
         {
             swap(a[low] , a[mid]);
             mid++;
             low++;
         }
-        else if(a[mid] == 1)
+        else if(a[mid] == 1)          //low to mid-1 it is 1
         {
             mid++;
         }
-        else{
+        else{                         //high+1 to n-1 it is 2
             swap(a[mid] , a[high]);
             high--;
         }
